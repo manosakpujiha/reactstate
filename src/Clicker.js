@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 export default class Clicker extends Component {
     constructor (props) {
         super(props)
-            this.state = {num: 1};
-            this.handleClick = this.handleClick.bind(this)
+        this.state = {num: 1};
+        this.handleClick = this.handleClick.bind(this)
     }
     handleClick(){
         let rand = Math.floor(Math.random()* 10 )+ 1;
