@@ -1,0 +1,18 @@
+.LottoNumbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.LottoNumbers .LottoNumbers-circle {
+    background-color: rgb(255, 81, 0);
+    color:antiquewhite;
+    font-weight: 700;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
