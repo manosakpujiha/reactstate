@@ -16,7 +16,7 @@ export default class Lottery extends Component {
         return {randArr: randomArray};
     }
     handleClick() {
-        this.setState(this.generateRandomArray)
+        this.setState(this.generateRandomArray);
     }
     render() {  
         return (
