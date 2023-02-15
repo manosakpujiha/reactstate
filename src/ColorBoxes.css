@@ -1,0 +1,14 @@
+.ColorBoxes {
+    margin:auto;
+    width: 80vw;
+    height: 900px;
+    display: flex;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid purple;
+    justify-content: space-between;
+    align-items: center;
+}
+

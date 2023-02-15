@@ -1,0 +1,15 @@
+.Button button {
+    align-self: center;
+    width: 15em;
+    padding: 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin: 1em;
+}
+
+.Button button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+}
